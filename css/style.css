@@ -142,25 +142,47 @@ main .main-input .micro-icon{
 
 
 }
-footer .button-perso .pinzel-icon{
- 
-    background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fw7.pngwing.com%2Fpngs%2F763%2F768%2Fpng-transparent-computer-icons-drawing-button.png&tbnid=FYr6a9AEeJxGeM&vet=12ahUKEwjtsZztyvX-AhX1noQIHdKQC1gQMygCegQIARBm..i&imgrefurl=https%3A%2F%2Fwww.pngwing.com%2Fes%2Ffree-png-mrvym&docid=bmbjubA22j3m1M&w=920&h=512&q=icono%20lapiz%20en%20boton%20google&ved=2ahUKEwjtsZztyvX-AhX1noQIHdKQC1gQMygCegQIARBm');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 18px;
-    height: 18px;
+.text-botton{
+    margin-left:6px;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size: 91.25%;
 }
 
-.button-perso{
+.container-flex {
+    background-color:rgb(168 211 170);
     display: flex;
-    border-radius: 100px;
-    
-    background-color: rgb(168 211 170);
-    justify-content: center;
+    align-content: space-around;
+    justify-content: space-around;
+    padding: 5px 14px;
+    align-items: center;
+    border-radius: 2em;
+    border: none;
+    box-shadow: 1px 2px 3px gray;
+}
+.container-flex:hover {
+    background-color:rgb(155 193 157);
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    padding: 5px 14px;
+    align-items: center;
+    border-radius: 2em;
+    border: none;
+    box-shadow: 1px 2px 3px gray;
 }
 
-.button-perso:hover{
-    background-color:#70b673;
-
+.buttonPencil {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
+
+.pencil {
+    fill: black;
+  
+  }
+/*#9bc19d
+rgb(155 193 157)
+positioin fixed
+botton 10px
+right 10px*/
