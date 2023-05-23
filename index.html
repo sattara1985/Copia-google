@@ -1,63 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clon Google</title>
-    <link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi CV</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/051bc7528e.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="wrapper">
     <header>
-        <nav>
-            <ul class="nav-right">
-                <li>
-                    <a href="#">Gmail</a>
-                </li>
-                <li>
-                    <a href="#">Imagenes</a>
-                </li>
-                <li class="menu-icon">
-                    <a href="#"></a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="https://lh3.google.com/u/0/ogw/AOLn63Er_N2hQtoAhs96OZ4ZZDy2nuTH7oIZyxsPY08o=s32-c-mo" alt="imagen del usuario">
-                    </a>                    
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="main-logo">
-            <img src="https://www.google.com/logos/2023/storybook/mothersday23-51223-253316372/cta.png" alt="imagen de google del dia">
-        </section>
-        <section class="main-input">
-            <div class="main-input-container">
-                <span class="search-icon"></span>
-                <input type="text">
-                <a  class="micro-icon" href="#"></a>
-            </div>
-        </section>
-        <section class="main-button">
-            <div >
-                <button>Buscar con Google</button>
-            </div>
-            <div>
-                <button>Me siento con Suerte</button>
-            </div>
-        </section>
-    </main>
-    <footer>
-      
-            <button class="button-perso">
-                    <img src="/imagenes/pinzel-icon.png" alt="">
-                    <span class="pinzel-icon"></span>
-                    <a  class="micro-icon" href="#"></a>
-                    <h1>perloer</h1>         
-            </button>
-       
+      <nav class="navbar">
+        <div class="brand">
+          <h2>S<span>A</span>M</h2>
+        </div>
+        <ul class="menu">
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#portfolio">Portafolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
 
-    </footer>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="infor-content">
+        <h1>Soy <span>Steven</span> Attara</h1>
+        <p>Ingeniero de sistemas apasionado por la tecnología y la resolución de problemas. Mi objetivo es crear soluciones innovadoras y eficientes que impulsen el crecimiento de las organizaciones y mejoren la experiencia de los usuarios. Con una sólida formación académica y años de experiencia en el campo, he adquirido un amplio conocimiento en desarrollo de software, administración de bases de datos y gestión de proyectos. Mi enfoque se basa en la calidad, la colaboración y la atención al detalle, siempre buscando superar las expectativas. Este sitio web es una ventana a mi trabajo, donde podrás explorar proyectos anteriores, conocer mis habilidades técnicas y descubrir cómo he aplicado mis conocimientos para resolver desafíos en diferentes sectores. Estoy emocionado de compartir mi trayectoria profesional contigo y de explorar nuevas oportunidades. ¡Gracias por visitar mi portafolio en línea.</p>
+        <a download href="./img/19cv.pdf"><BUtton class="download-cv">Download CV</BUtton></a>
+      </div>
+      <img src="./img/steven-sf.png" alt="imagen de steven attara">
+    </main>
+
+
+  </div>
+  <div class="about">
+    <img src="./img/about-2.jpeg" alt=""steven attara retrato>
+  
+  <div class="about-info" id="about">
+    <h2>About me</h2>
+    <div class="divider"></div>
+    <p>Mi viaje profesional ha sido emocionante y diverso, lo que me ha permitido adquirir una amplia gama de habilidades y experiencias en diferentes campos. Recientemente, me gradué en ingeniería de sistemas, un logro del que estoy muy orgulloso.
+
+      Mi enfoque en la resolución de problemas y mi pasión por la tecnología han sido los impulsores constantes en mi carrera. A lo largo de los años, he tenido la oportunidad de trabajar en diversos roles, desde el desarrollo de software hasta la administración de bases de datos y la gestión de proyectos. Cada experiencia ha sido enriquecedora y me ha permitido crecer tanto personal como profesionalmente.
+      
+      Aunque disfruto de mi trabajo, mi verdadera fortaleza radica en el amor y el apoyo de mi familia. Ellos son mi mayor motivación y siempre me animan a alcanzar nuevas metas. En mi tiempo libre, disfruto compartir momentos especiales con ellos, ya sea explorando la naturaleza, disfrutando de actividades al aire libre o simplemente relajándonos juntos en casa.</p>
+    
+    <button class="download-cv">Read More</button>
+  </div>
+</div>
+<div class="portfolio" id="portfolio">
+  <div class="portfolio-headings">
+    <h2>My Portfolio</h2>
+    <div class="divider"></div>
+  </div>
+  <div class="container">
+    <div class="card">
+      <div class="card_img">
+      </div>
+      <div class="card_title">
+        <h2>Clon-Google</h2>
+        <p>Esta es un Clon de google donde practico mis ocnocimientos de html y Css para realizar una clonacion al buscar de google.</p> 
+      </div>
+      <div class="card_projects-links">
+        <a href="https://github.com/sattara1985/Copia-google.git">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="">
+          <i class="fa-solid fa-earth-americas"></i>
+        </a>
+        <a href="">
+          <i class="fa-solid fa-code"></i>
+        </a>
+      </div>
+      <div class="project-details-content">
+        <button class="project-details download-cv">
+          <a href="">Project details</a>
+          
+        </button>
+
+      </div>
+      
+    </div>
+  </div>
+</div>
 </body>
 </html>
